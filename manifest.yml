@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bi-iot-mjoy001
+  host: bi-iot-mjoy001
+  disk_quota: 1024M
+  services:
+  - bi-iot-mjoy001-cloudantNoSQLDB
+  - bi-iot-mjoy001-iotf-service
